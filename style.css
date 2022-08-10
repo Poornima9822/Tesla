@@ -1,0 +1,136 @@
+.b{
+    background-image: url("background.jpg");
+    background-size: 100%;
+    background-position-y: -128px;
+}
+
+.i{
+    width: 120px;
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 40px;
+}
+
+.list1{
+    list-style: none;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 11px;
+}
+
+.item1{
+    color: white;
+    display: inline; /*horizontally show */
+    margin-left: 30px;
+    position: relative;
+    font-family: "Gotham";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.list2{
+    list-style: none;
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: 11px;
+}
+
+@font-face {
+    font-family: "Gotham";
+    src: url("Gotham.woff2");
+}
+
+.p1{
+    position: absolute;
+    margin-left: 675px;
+    margin-top: 105px;
+    color: white;
+    font-size: 40px;
+    font-family: "Gotham";
+}
+
+.d1{
+    width: 700px;
+    height: 85px;
+   /* background-color: red;*/
+    margin-top: 602px;
+    margin-left: 410px;
+    position: absolute;
+}
+
+.d2{
+    width: 105px;
+    height: 30px;
+    color: white;
+   /* background-color: blue;*/
+    font-size: 25px;
+    font-family: "GOtham";
+}
+
+
+.list3{
+    list-style: none;
+    position: absolute;
+
+}
+.item2{
+    display: inline-block;
+    margin-left: -40px;
+    margin-top: -16px;
+}
+
+.d3{
+    width: 150px;
+    height: 20px;
+    /*background-color: green;*/
+    margin-top: 5px;
+    margin-left: 1px;
+    color: white;
+    font-family: "Gotham";
+    font-size: 13px;
+}
+
+.item3{
+    margin-left: 150px;
+    margin-top: -53px;
+}
+
+.item4{
+    margin-left: 350px;
+    margin-top: -59px;
+}
+
+.item5{
+    margin-left: 510px;
+    margin-top: -55px;
+}
+.b1{
+    width: 210px;
+    height: 40px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+    font-family: "Gotham";
+    background-color: transparent;
+}
+
+.b1:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition-duration: 1000ms;
+}
+
+.item1:hover{
+    background-color: rgba(255, 255, 255, 0.221);
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
